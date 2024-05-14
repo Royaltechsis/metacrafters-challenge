@@ -13,7 +13,22 @@ The `CryptoWallet` contract provides the following functionalities:
 - Demonstrate the use of `assert()` statement.
 - Demonstrate the use of `revert()` statement.
 
-##getting started 
+## Getting Started 
 to get started with this contract, you need to have the following installed 
-#Node.js
-#Npm
+- Node.js
+- npm
+- Truffle
+- Ganache(optional for local  blockchain testing
+## Installation 
+Clone this repository 
+[git clone https://github.com/yourusername/cryptowallet.git
+cd cryptowallet](git clone https://github.com/yourusername/cryptowallet.git
+cd cryptowallet)
+
+## Install Dependencies 
+npm install
+
+## Liscense 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
