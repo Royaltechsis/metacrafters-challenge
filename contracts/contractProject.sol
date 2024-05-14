@@ -32,13 +32,13 @@ contract CryptoWallet {
         return balances[msg.sender]; // Return balance of the caller
     }
 
-    // Example function using assert
+    // function using assert
     function assertExample(uint _value) external pure returns (uint) {
         assert(_value != 0); // Ensure _value is not zero
         return _value;
     }
 
-    // Example function using revert
+    // function using revert
     function revertExample(uint _value) external pure returns (uint) {
         require(_value != 0, "Value must be non-zero"); // Ensure _value is not zero
         if (_value == 0) {
